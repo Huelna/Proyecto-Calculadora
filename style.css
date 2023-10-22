@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #400761, #712cbf,#8b48f8);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: #e9e9e9;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.calculadora {
+
+  display: block;
+  max-width: 240px;
+  max-height: 380px;
+  margin: 0 auto;
+  background-color: #0e0d0de1;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(238, 227, 227, 0.1);
+}
+
+#pantalla {
+
+  width: 87%;
+  height: 50px;
+  padding: 15px;
+  font-size: 30px;
+  text-align: right;
+  color: #e9e9e9;
+  background-color: #0000005d;
+  border-color: #f70f23;
+  border-radius: 10px 10px 0 0;
+  border-style: none;
+}
+
+hr{
+  border:solid 1px #ff00006e;
+  margin: 0;
+  padding:0 104px;
+  position: relative;
+  justify-content: center;
+}
+
+.borrar{
+  padding: 0px 54px;
+  margin: 0;
+  color: #fa0238;
+}
+
+
+.column0{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;  
+  color: #02fa38;
+}
+
+.cero{
+  margin: 0;
+  padding: 0px 54px;
+  justify-content: center;
+  color: #ffffff;
+}
+
+
+.punto{
+  margin: 0;
+  padding: 0;
+  
+  color: #ffff;
+}
+
+.igual{
+  margin: 0;
+  padding:0 57px;
+  justify-content: center;
+  color: #02fa38;
+  background-color: #fa0238;
+}
+
+.btn{
+  color: #ffffff;
+}
+
+.btn1{
+  color: #02fa38;
+}
+
+input[type="button"] {
+  width: 50px;
+  height: 50px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  justify-content: center;
+  /* color: #ffffff; */
+  background-color: #ffffff05;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  color: #ae00ff;
+  background-color: #00000034;
+  border:solid 1px #b805ff69;
+}
+
+input[type="button"]:last-child {
+  margin-right: 0;
+}
